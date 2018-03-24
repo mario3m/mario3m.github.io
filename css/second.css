@@ -157,6 +157,10 @@ textarea {
 		margin-top: 5px;
 	}
 	
+	section#referencias h1 {
+		text-align: center;
+	}
+	
 	html {
 		background: linear-gradient(to right, #222831, #393E46, #222831);
 	}
@@ -207,6 +211,11 @@ textarea {
 		padding: 1%;
 		order: 1;
 		-webkit-order: 1;
+	}
+	
+	th#c2 {
+		vertical-align:middle;
+		padding: 5%;
 	}
 	
 	tr#footer td{
