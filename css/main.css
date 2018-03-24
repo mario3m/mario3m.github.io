@@ -136,7 +136,7 @@ h1 {
 h1#nombre_pagina {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color: #142c52;
     color: white;
     vertical-align: middle;
