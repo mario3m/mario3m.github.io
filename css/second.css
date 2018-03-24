@@ -1,3 +1,8 @@
+/*-- ------------------------------ --*/
+/*-- MARIO MUÑOZ MORENO - 45130076M --*/
+/*--      mariomunoz3m@usal.es      --*/
+/*--            Grupo B2            --*/
+/*-- ------------------------------ --*/
 
 /*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
@@ -20,7 +25,6 @@ html {
 p {
     font-size: 1.5em;
     line-height: 1.5em;
- 
 }
 
 /*
@@ -103,236 +107,269 @@ textarea {
 /* ==========================================================================
    Author's custom styles: Mario Muñoz Moreno
    ========================================================================== */
-	
-	h1 {
-		font-family: 'Orbitron', sans-serif;
-		font-size: 45px;
-		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-		color: white;
-		margin-bottom: 0;
-	}
-	
-	h1#nombre_pagina {
-		text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 5px darkblue;
-		margin-bottom: 20px;
-		text-align: center;
-		border: 3px solid #dddddd;
-	}
-	
-	h1#nombre_pagina a:link {
-        text-decoration: none;
-        color: white;
+
+/* HEADER H1 */
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+    /* HEADER H1 CABECERA DE LA PÁGINA */
+    h1#nombre_pagina {
+        text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 5px darkblue;
+        margin-bottom: 20px;
+        text-align: center;
+        border: 3px solid #dddddd;
     }
 
-    h1#nombre_pagina a:visited {
-        text-decoration: none;
-        color: white;
+        h1#nombre_pagina a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        h1#nombre_pagina a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        h1#nombre_pagina a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        h1#nombre_pagina a:active {
+            text-decoration: none;
+            color: white;
+        }
+
+
+/* HEADER H1 REFERENCIAS */
+section#referencias h1 {
+    text-align: center;
+}
+
+
+/* HEADER H2 */
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 0;
+}
+
+
+    /* HEADER H2 Dispositivo (Interfaz/tecnología) */
+    h2#dispositivo {
+        margin-top: 25px;
     }
 
-    h1#nombre_pagina a:hover {
-        text-decoration: none;
-        color: white;
-    }
 
-    h1#nombre_pagina a:active {
-        text-decoration: none;
-        color: white;
-    }
-	
-	h2 {
-		font-family: 'Orbitron', sans-serif;
-		font-size: 16px;
-		color:  grey;
-		margin-bottom: 0;
-	}
-	
-	h2#dispositivo{
-		margin-top: 25px;
-	}
-
-	h3 {
-		font-family: 'Exo 2', sans-serif;
-		font-size: 30px;
-		color: white;
-		margin-top: 5px;
-	}
-	
-	section#referencias h1 {
-		text-align: center;
-	}
-	
-	html {
-		background: linear-gradient(to right, #222831, #393E46, #222831);
-	}
-	
-	.web_container{
-		width: 75vw;
-		padding: 1%;
-		margin: auto;
-		text-align: center;
-		min-width: 850px;
-	}
-   
-	body {
-		text-align: justify;
-		margin-left: auto;
-		margin-right: auto;
-	}
-   
-	p,section#referencias {
-		text-align: justify;
-		font-family: 'Exo 2', sans-serif;
-		font-size: 14px;
-		color: white;
-	}
-	
-	table#t_estructura{
-		width: 100%;
-		border: 3px solid #dddddd;
-	}
-	
-	tr#tr_contenido {
-		display: -webkit-flex; /* Safari */
-		display: flex;
-	}
-	
-	.table_datos th{
-		vertical-align: top;
-	}
-	
-	th#c_nav {
-		min-width: 120px;
-		border-left: 3px solid #dddddd;
-		order: 2;
-		-webkit-order: 2;
-	}
-	
-	th#c_contenido {
-		padding: 1%;
-		order: 1;
-		-webkit-order: 1;
-	}
-	
-	th#c2 {
-		vertical-align:middle;
-		padding: 5%;
-	}
-	
-	tr#footer td{
-		border-top: 3px solid #dddddd;
-	}
-
-	.media {
-		width: 75%;
-		padding: 1%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.container_yt_video {
-		position: relative;
-		padding: 1%;
-		width: 75%;
-		padding-top: 50%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.yt_video {
-		position: absolute;
-		padding: 2%;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		
-	}
-
-	.yt_media {
-		width: 100%;
-		height: 100%;
-	}
+/*HEADER H3 */
+h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 5px;
+}
 
 
-	.poster {
-		width: 98%;
-		padding: 1%;
-	}
-
-	.analizador {
-		padding-top: 10px;
-		margin-bottom: 0px;
-		text-align: center;
-		color: grey;
-	}
-
-	.contacto {
-		margin-top: 0px;
-		margin-bottom: 0px;
-		text-align: center;
-		color: grey;
-	}
-
-	span#yo {
-		font-weight: bold;
-	}
-
-	span#correo {
-		font-weight: bold;
-	}
-
-	.copyright {
-		margin-top: 0px;
-		text-align: center;
-		color: grey;
-	}
-	
-	nav {
-		position: -webkit-sticky; /* Safari */
-		position: sticky;
-		top: 20px;
-	}
+/* HTML (para aplicar el fondo) */
+html {
+    background: linear-gradient(to right, #222831, #393E46, #222831);
+}
 
 
-	section#referencias a {
-		color: #AA9B9B;
-		text-decoration: none;
-	}
+/* BODY (se aplica al contenido de la página) */
+body {
+    width: 75vw; /* width relativo al tamaño de la ventana */
+    min-width: 850px;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+}
 
-	.refcruzada {
-		font-size: 12px;
-		vertical-align: top;
-		color: #AA9B9B;
-	}
 
-	.menu_borde {
-        text-align: left;
-		padding-left: 20px;
-		margin-top: 15px;
-    }
-	
-	.menu_borde a {
+/* FORMATO DE LOS PARAGRAPH */
+p, section#referencias {
+    text-align: justify;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* TABLA QUE CONTIENE LA PÁGINA */
+table#t_estructura {
+    width: 100%;
+    border: 3px solid #dddddd;
+}
+
+
+/* PÁGINA SIN INCLUIR LA CABECERA */
+tr#tr_contenido {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+
+/* PANEL DE NAVEGACIÓN */
+th#c_nav {
+    min-width: 120px;
+    border-left: 3px solid #dddddd;
+    order: 2;
+    -webkit-order: 2;
+}
+
+
+/* MENÚ DE NAVEGACIÓN */
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+    nav a {
         color: #1493c9;
         text-decoration: none;
-		font-family: 'Orbitron', sans-serif;
-		text-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 10px darkblue;
-		color: white;
-		margin-bottom: 40px;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 10px darkblue;
+        color: white;
+        margin-bottom: 40px;
     }
-	
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 
+/* PANEL DE CONTENIDO */
+th#c_contenido {
+    padding: 1%;
+    order: 1;
+    -webkit-order: 1;
+}
 
 
+/* COLUMNA DONDE SE ENCUENTRA LA TABLA DE DATOS DE */
+/* PRODUCCIÓN (AL LADO DEL PÓSTER) */
+th#c2 {
+    vertical-align: middle;
+    padding: 5%;
+}
 
 
+/* COLUMNAS DE LA TABLA DE DATOS DE PRODUCCIÓN */
+.table_datos th {
+    vertical-align: top;
+}
 
+
+/* FILA QUE CONTIENE EL FOOTER */
+tr#footer td {
+    border-top: 3px solid #dddddd;
+}
+
+
+/* PARTES DEL FOOTER */
+.analizador {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: grey;
+}
+
+.contacto {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: grey;
+}
+
+.copyright {
+    margin-top: 0px;
+    text-align: center;
+    color: grey;
+}
+
+span#yo {
+    font-weight: bold;
+}
+
+span#correo {
+    font-weight: bold;
+}
+
+
+/* FORMATO DE IMÁGENES Y VÍDEOS */
+.media {
+    width: 75%;
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_yt_video {
+    position: relative;
+    padding: 1%;
+    width: 75%;
+    padding-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yt_video {
+    position: absolute;
+    padding: 2%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.yt_media {
+    width: 100%;
+    height: 100%;
+}
+
+.poster {
+    width: 98%;
+    padding: 1%;
+}
+
+
+/* FORMATO DE LA SECCIÓN DE REFERENCIAS */
+section#referencias a:link, a:active {
+    color: #AA9B9B;
+    text-decoration: none;
+}
+
+section#referencias a:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+section#referencias a:hover {
+    color: #AA9B9B;
+    text-decoration: none;
+}
+
+
+/* FORMATO DE LAS REFERENCIAS CRUZADAS */
+.refcruzada {
+    font-size: 12px;
+    vertical-align: top;
+    color: #AA9B9B;
+}
 
 
 /* ==========================================================================
@@ -370,24 +407,24 @@ textarea {
     white-space: nowrap; /* 1 */
 }
 
-/*
+    /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    -webkit-clip-path: none;
-    clip-path: none;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
-}
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus {
+        clip: auto;
+        -webkit-clip-path: none;
+        clip-path: none;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+        white-space: inherit;
+    }
 
 /*
  * Hide visually and from screen readers, but maintain layout
@@ -429,10 +466,7 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -458,9 +492,9 @@ textarea {
         text-decoration: underline;
     }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
 
     abbr[title]:after {
         content: " (" attr(title) ")";
@@ -479,6 +513,7 @@ textarea {
     pre {
         white-space: pre-wrap !important;
     }
+
     pre,
     blockquote {
         border: 1px solid #999;

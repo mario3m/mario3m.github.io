@@ -1,3 +1,9 @@
+/*-- ------------------------------ --*/
+/*-- MARIO MUÑOZ MORENO - 45130076M --*/
+/*--      mariomunoz3m@usal.es      --*/
+/*--            Grupo B2            --*/
+/*-- ------------------------------ --*/
+
 /*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -115,49 +121,18 @@ h1, h2, h3 {
     margin-bottom: 0;
 }
 
+
+/* ESPECIFICACIÓN CONCRETA DE HEADERS h1 */
 h1 {
     font-size: 36px;
 }
 
 .primera_letra {
-    color: #1493c9;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 24px;
+    color: #1493c9; /* para cambiar el color de la primera letra de los h1 */
 }
 
 
-/* BODY */
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #4e4e4e;
-    background-color: #f1f5f9;
-    position: relative;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    color: #4e4e4e;
-    width: 100%;
-}
-
-.body_con_margen {
-    margin: 1%;
-}
-
-
-/* NAVEGACIÓN */
+/* HEADER H1 CABECERA DE LA PÁGINA */
 h1#nombre_pagina {
     width: 100%;
     margin: 0;
@@ -187,12 +162,152 @@ h1#nombre_pagina {
         color: white;
     }
 
-.refcruzada {
-    font-size: 12px;
-    vertical-align: top;
-    color: #1493c9;
+
+/* ESPECIFICACIÓN CONCRETA DE HEADERS h2 */
+h2 {
+    font-size: 30px;
 }
 
+
+/* ESPECIFICACIÓN CONCRETA DE HEADERS h3 */
+h3 {
+    font-size: 24px;
+}
+
+
+/* BODY (se aplica al contenido de la página) */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4e4e4e;
+    background-color: #f1f5f9;
+    position: relative;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.body_con_margen {
+    margin: 1%;
+}
+
+
+/* FORMATO DE LOS PARAGRAPH */
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #4e4e4e;
+    width: 100%;
+}
+
+
+/* FORMATO ESTÁNDAR PARA LAS TABLAS */
+table {
+    border-radius: 10px;
+    width: 100%;
+    padding: 1%;
+}
+
+
+    /* TABLA QUE CONTIENE LA PÁGINA */
+    table#t_estructura {
+        padding: 0;
+    }
+
+        table#t_estructura tr {
+            vertical-align: top;
+        }
+
+
+/* PANEL DE CONTENIDO */
+th#c_contenido {
+    padding: 0;
+}
+
+
+/* PANEL DE NAVEGACIÓN */
+table#t_estructura th#c_nav {
+    min-width: 120px;
+}
+
+
+/* MENÚ DE NAVEGACIÓN */
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    margin: 5px;
+    border-left: 4px solid #dddddd;
+    list-style-type: none;
+}
+
+    nav a {
+        color: #1493c9;
+        text-decoration: none;
+    }
+
+ul {
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* TABLA QUE CONTIENE EL PÓSTER Y LOS DATOS DE PRODUCCIÓN */
+.table_datos {
+    border-collapse: collapse;
+    border-bottom: 0;
+    box-shadow: 1px 2px grey;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+    .table_datos tr#f_primera {
+        border-top: none;
+    }
+
+    .table_datos tr#f_segunda {
+        border-bottom: none;
+    }
+
+    .table_datos tr {
+        border: solid;
+        border-width: 1px 0;
+    }
+
+    .table_datos th {
+        padding-left: 2%;
+    }
+
+    .table_datos h2, h3 {
+        font-size: 20px;
+    }
+
+
+/* FILAS DE LA TABLA QUE CONTIENE EL PÓSTER Y LOS */
+/* DATOS DE PRODUCCIÓN                            */
+.table_container tr {
+    vertical-align: top;
+}
+
+
+/* COLUMNA QUE CONTIENE EL PÓSTER */
+.table_container th#c1 {
+    width: 30%;
+}
+
+
+/* COLUMNA QUE CONTIENE LOS DATOS DE PRODUCCIÓN */
+.table_container th#c2 {
+    width: 70%;
+    padding-left: 2%;
+}
+
+
+/* SECCIÓN DE REFERENCIAS */
 section#referencias a {
     color: #1493c9;
     text-decoration: none;
@@ -203,7 +318,15 @@ section#referencias a {
 }
 
 
-/* MEDIA */
+/* FORMATO DE REFERENCIAS CRUZADAS */
+.refcruzada {
+    font-size: 12px;
+    vertical-align: top;
+    color: #1493c9;
+}
+
+
+/* FORMATO DE IMÁGENES Y VÍDEOS */
 .media {
     width: 50%;
     padding: 1%;
@@ -246,86 +369,8 @@ hr {
     margin-top: 0;
 }
 
-/* TABLAS */
-table {
-    border-radius: 10px;
-    width: 100%;
-    padding: 1%;
-}
-
-.table_container tr {
-    vertical-align: top;
-}
-
-.table_container th#c1 {
-    width: 30%;
-}
-
-.table_container th#c2 {
-    width: 70%;
-    padding-left: 2%;
-}
-
-.table_datos {
-    border-collapse: collapse;
-    border-bottom: 0;
-    box-shadow: 1px 2px grey;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-}
-
-    .table_datos tr#f_primera {
-        border-top: none;
-    }
-
-    .table_datos tr#f_segunda {
-        border-bottom: none;
-    }
-
-    .table_datos tr {
-        border: solid;
-        border-width: 1px 0;
-    }
-
-    .table_datos th {
-        padding-left: 2%;
-    }
-
-    .table_datos h2, h3 {
-        font-size: 20px;
-    }
-
-table#t_estructura {
-    padding: 0;
-}
-
-    table#t_estructura tr {
-        vertical-align: top;
-    }
-
-th#c_nav {
-    min-width: 120px;
-}
-
-nav {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
-
-th#c_contenido {
-    padding: 0;
-}
-
-menu_borde {
-    /*position: fixed; */ /* Set the navbar to fixed position */
-    /*top: 60px;*/ /* Position the navbar at the top of the page */
-}
-
 
 /* FOOTER */
-
 footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -352,6 +397,11 @@ footer {
     text-align: center;
 }
 
+.copyright {
+    margin-top: 0px;
+    text-align: center;
+}
+
 span#yo {
     font-weight: bold;
 }
@@ -360,29 +410,6 @@ span#correo {
     font-weight: bold;
 }
 
-.copyright {
-    margin-top: 0px;
-    text-align: center;
-}
-
-
-/* LISTAS */
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-.menu_borde {
-    padding: 5px;
-    margin: 5px;
-    border-left: 4px solid #dddddd;
-    list-style-type: none;
-}
-
-    .menu_borde a {
-        color: #1493c9;
-        text-decoration: none;
-    }
 
 /* ==========================================================================
    Helper classes
